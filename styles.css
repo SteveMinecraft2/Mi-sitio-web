@@ -1,0 +1,39 @@
+/* Incluir la fuente Minecrafter */
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('fonts/Minecrafter.ttf') format('truetype');
+}
+
+/* Aplicar la fuente Minecrafter a la página */
+body {
+    font-family: 'Minecrafter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
